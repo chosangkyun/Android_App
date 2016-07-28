@@ -92,11 +92,11 @@ namespace Prada_App1
         }
         void OnimageButton12Clicked(object sender, EventArgs e)
         {
-            setMessage("Rect_Pad1");
+            setMessage("Rect_Pad");
         }
         void OnimageButton13Clicked(object sender, EventArgs e)
         {
-            setMessage("Abdomen_Pad1");
+            setMessage("Abdomen_Pad");
         }
 
         public void setMessage(string strMsg)

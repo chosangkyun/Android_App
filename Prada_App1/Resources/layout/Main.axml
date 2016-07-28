@@ -2,32 +2,28 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#ff000000">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#ff000000">
+        android:layout_weight="1">
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="2"
-            android:background="#ff000000" />
+            android:layout_weight="2" />
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="8"
-            android:background="#ff000000" />
+            android:layout_weight="8" />
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#ff000000" />
+            android:layout_weight="1" />
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#ff000000"
             android:minWidth="25px"
             android:minHeight="25px">
             <ImageButton
@@ -46,13 +42,11 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#ff000000" />
+            android:layout_weight="1" />
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#ff000000"
             android:minWidth="25px"
             android:minHeight="25px"
             android:orientation="vertical">
@@ -76,7 +70,6 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="8"
-            android:background="#ff000000"
             android:orientation="vertical">
             <LinearLayout
                 android:layout_width="match_parent"
@@ -88,13 +81,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="8"
-                    android:background="#ff000000"
                     android:orientation="horizontal">
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="#ff000000"
                         android:minWidth="25px"
                         android:minHeight="25px"
                         android:orientation="vertical">
@@ -118,14 +109,12 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="9"
-                        android:background="#ff000000"
                         android:minWidth="25px"
                         android:minHeight="25px" />
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="#ff000000"
                         android:minWidth="25px"
                         android:minHeight="25px"
                         android:orientation="vertical">
@@ -150,7 +139,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:background="#ff000000"
                     android:minWidth="25px"
                     android:minHeight="25px">
                     <ImageView
@@ -201,7 +189,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="2"
-                android:background="#ff000000"
                 android:minWidth="25px"
                 android:minHeight="25px"
                 android:orientation="horizontal">
@@ -247,7 +234,6 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#ff000000"
             android:minWidth="25px"
             android:minHeight="25px"
             android:orientation="vertical">
@@ -270,7 +256,6 @@
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#ff000000" />
+            android:layout_weight="1" />
     </LinearLayout>
 </LinearLayout>
