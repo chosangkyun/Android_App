@@ -54,7 +54,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="96.0dp"
                 android:id="@+id/imageButton1"
-                android:src="@android:drawable/ic_menu_gallery"/>
+                android:scaleType="center"
+                android:background="@drawable/mode_icon" />
             <ImageButton
                 android:src="@android:drawable/ic_menu_gallery"
                 android:layout_width="match_parent"
