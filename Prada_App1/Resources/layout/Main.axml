@@ -197,37 +197,43 @@
                     android:layout_width="103.0dp"
                     android:layout_height="122.0dp"
                     android:layout_weight="1"
-                    android:id="@+id/imageButton8" />
+                    android:id="@+id/imageButton8"
+                    android:background="@drawable/option_pad" />
                 <ImageButton
                     android:src="@android:drawable/ic_menu_gallery"
                     android:layout_width="103.0dp"
                     android:layout_height="122.0dp"
                     android:layout_weight="1"
-                    android:id="@+id/imageButton9" />
+                    android:id="@+id/imageButton9"
+                    android:background="@drawable/multipad" />
                 <ImageButton
                     android:src="@android:drawable/ic_menu_gallery"
                     android:layout_width="103.0dp"
                     android:layout_height="122.0dp"
                     android:layout_weight="1"
-                    android:id="@+id/imageButton10" />
+                    android:id="@+id/imageButton10"
+                    android:background="@drawable/left_right_pad" />
                 <ImageButton
                     android:src="@android:drawable/ic_menu_gallery"
                     android:layout_width="103.0dp"
                     android:layout_height="122.0dp"
                     android:layout_weight="1"
-                    android:id="@+id/imageButton11" />
+                    android:id="@+id/imageButton11"
+                    android:background="@drawable/foot_pad" />
                 <ImageButton
                     android:src="@android:drawable/ic_menu_gallery"
                     android:layout_width="103.0dp"
                     android:layout_height="122.0dp"
                     android:layout_weight="1"
-                    android:id="@+id/imageButton12" />
+                    android:id="@+id/imageButton12"
+                    android:background="@drawable/square_pad" />
                 <ImageButton
                     android:src="@android:drawable/ic_menu_gallery"
                     android:layout_width="103.0dp"
                     android:layout_height="122.0dp"
                     android:layout_weight="1"
-                    android:id="@+id/imageButton13" />
+                    android:id="@+id/imageButton13"
+                    android:background="@drawable/abdomen_pad" />
             </LinearLayout>
         </LinearLayout>
         <LinearLayout
