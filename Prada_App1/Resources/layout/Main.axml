@@ -110,7 +110,41 @@
                         android:layout_height="match_parent"
                         android:layout_weight="9"
                         android:minWidth="25px"
-                        android:minHeight="25px" />
+                        android:minHeight="25px">
+                        <AbsoluteLayout
+                            android:minWidth="25px"
+                            android:minHeight="25px"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/absoluteLayout1">
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/imageView14"
+                                android:background="@drawable/running_ani_2" />
+                            <ImageView
+                                android:layout_width="30.dp"
+                                android:layout_height="25.dp"
+                                android:layout_x="650px"
+                                android:layout_y="350px"
+                                android:id="@+id/imageView15"
+                                android:background="@drawable/hz" />
+                          <ImageView
+                                android:layout_width="42.dp"
+                                android:layout_height="85.dp"
+                                android:layout_x="570px"
+                                android:layout_y="300px"
+                                android:id="@+id/imageView16"
+                                android:background="@drawable/text_0_blue" />
+                          <ImageView
+                                android:layout_width="42.dp"
+                                android:layout_height="85.dp"
+                                android:layout_x="610px"
+                                android:layout_y="300px"
+                                android:id="@+id/imageView17"
+                                android:background="@drawable/text_0_blue" />
+                        </AbsoluteLayout>
+                    </LinearLayout>
                     <LinearLayout
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
